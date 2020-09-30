@@ -1,0 +1,21 @@
+{
+    "org": "$HZN_ORG_ID",
+    "label": "Truck Node GPS Monitoring Service",
+    "description": "A simulated GPS sensor collecting and reporting service.",
+    "public": false,
+    "documentation": "https://github.com/IBM-ICP-CoC/coc-truck.gps-mon/blob/master/README.md",
+    "url": "coc-truck.gps-mon",
+    "version": "1.0.0",
+    "arch": "amd64",
+    "sharable": "multiple",
+    "requiredServices": [],
+    "userInput": [],
+    "deployment": {
+        "services": {
+            "coc.truck-node": {
+                "image": "ibmicpcoc/coc-truck.gps-mon_amd64:1.0.0",
+		        "ports": [  ]
+            }
+        }
+    }
+}

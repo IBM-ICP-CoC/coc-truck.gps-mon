@@ -1,0 +1,29 @@
+{
+    "label": "Business policy for coc-truck.temp-mon",
+    "description": "A super-simple gps monitoring service simulator demo",
+    "service": {
+      "name": "coc-truck.gps-mon",
+      "org": "$HZN_ORG_ID",
+      "arch": "amd64",
+      "serviceVersions": [
+        {
+          "version": "1.0.0",
+          "priority":{}
+        }
+      ]
+    },
+    "properties": [],
+    "constraints": [
+          "has-gps == true"
+    ],
+    "userInput": [
+      {
+        "serviceOrgid": "$HZN_ORG_ID",
+        "serviceUrl": "coc-truck.gps-mon",
+        "serviceVersionRange": "[0.0.1,INFINITY)",
+        "inputs": [
+        ]
+      }
+    ]
+  }
+  

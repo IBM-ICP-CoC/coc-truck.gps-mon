@@ -1,0 +1,12 @@
+{
+	"name": "coc-truck.gps-mon",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"random": "^2.2.0"
+	},
+	"repository": {}
+}
