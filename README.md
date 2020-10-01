@@ -21,3 +21,10 @@ hzn exchange business addpolicy --json-file=bus_policy.json coc-truck.gps-mon_1.
 hzn service log coc-truck.gps.mon 
 
 ```
+
+{
+    "hasTemp": true,
+    "hasGPS: true,
+    "modelNo": "XJ-4920-K",
+    "releaseLevel": 2.8
+}

@@ -12,9 +12,18 @@
         }
       ]
     },
-    "properties": [],
+    "properties": [
+        {
+            "name": "coc-approved",
+            "value": true
+        },
+        {
+            "name": "security-level",
+            "value": 5
+        }
+    ],
     "constraints": [
-          "has-gps == true"
+        "has-gps == true"
     ],
     "userInput": [
       {
