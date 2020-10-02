@@ -17,5 +17,8 @@
 		        "ports": [  ]
             }
         }
-    }
+    },
+    "constraints": [
+        "openhorizon.memory >= 100"
+    ]
 }
