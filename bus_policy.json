@@ -23,7 +23,6 @@
         }
     ],
     "constraints": [
-        "has-gps == true"
     ],
     "userInput": [
       {
