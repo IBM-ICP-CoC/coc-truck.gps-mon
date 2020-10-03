@@ -23,6 +23,7 @@
         }
     ],
     "constraints": [
+        "vehicle-type-code != TR00"
     ],
     "userInput": [
       {
