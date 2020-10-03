@@ -1,0 +1,8 @@
+{
+    "properties": [ 
+    ],
+    "constraints": [
+        "openhorizon.memory >= 100",
+        "has-gps == true"
+    ]
+}
