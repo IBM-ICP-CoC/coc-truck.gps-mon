@@ -23,7 +23,8 @@
         }
     ],
     "constraints": [
-        "vehicle-type-code != TR00"
+        "openhorizon.memory >= 100",
+        "has-gps == true"
     ],
     "userInput": [
       {

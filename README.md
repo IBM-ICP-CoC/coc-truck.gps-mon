@@ -22,9 +22,3 @@ hzn service log coc-truck.gps.mon
 
 ```
 
-{
-    "hasTemp": true,
-    "hasGPS: true,
-    "modelNo": "XJ-4920-K",
-    "releaseLevel": 2.8
-}
